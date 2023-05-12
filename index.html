@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.h{
+ font-size: 70px;
+ width: 70px;
+ height: 70px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+}
+#i{
+ font-size: 40px;
+ width: 40px;
+ height: 40px;
+ text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+    <div hi>
+        <div class="h">
+            H
+        </div>
+        <div id="i">
+            I
+        </div>
+    </div>
+
+    <script>
+
+    var p1={id:1, name:"p1"};
+    var p2={dog:2, name:"p2"};
+    //var p3= Object.assign(p1[0,p2[0]);
+    var p3= Object.assign(p1,p2);
+    console.log(p3);
+    </script>
+</body>
+</html>
